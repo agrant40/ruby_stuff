@@ -1,7 +1,11 @@
 require 'csv'
 
-print "CSV field to read: "
-input_file = gets.chomp
+input_file = ARGV.pop
+
+if ARGV.empty?
+	print "CSV field to read: "
+	input_file = gets.chomp
+end
 
 print "File to write XML to: "
 output_file = gets.chomp
