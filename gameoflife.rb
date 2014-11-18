@@ -1,3 +1,5 @@
+# Copied from http://bjorkoy.com/2010/05/conways-game-of-life-in-ruby/
+# for reference
 #
 # Conway's Game of Life in Ruby
 # http://en.wikipedia.org/wiki/Conway's_Game_of_Life
