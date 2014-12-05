@@ -1,3 +1,4 @@
+#Converts a csv file to xml
 require 'csv'
 
 input_file = ARGV.pop
